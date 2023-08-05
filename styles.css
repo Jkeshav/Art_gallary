@@ -1,0 +1,31 @@
+.gradient_background {
+    background: linear-gradient(300deg, #ff4668, #00bfff, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color: white;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    font-family: serif;
+  }
+
+  p {
+    font-size: 20px;
+  }
+  
+.icon-square {
+    background-color: #00bfff;
+    border-radius: 10px;
+}
