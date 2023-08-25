@@ -29,3 +29,15 @@ body {
     background-color: #00bfff;
     border-radius: 10px;
 }
+
+.carousel-item img { width: 100%; }
+.carousel-item { position: relative; }
+.carousel-item::after {
+  content: "© 2023 TAG, Inc";
+  position: absolute;
+  bottom: 1;
+  right: 0;
+  opacity: 0.8;
+  font-size: 2em;
+  color: white;
+}
